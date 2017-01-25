@@ -1,0 +1,51 @@
+/*右侧树形目录菜单*/
+.el-menu,.el-submenu .el-menu{background:#32323a;}
+.el-menu li{border-bottom:1px solid #29282e;}
+li.el-menu-item:last-child{border-bottom:0;}
+li.el-menu-item-group{border-bottom:0}
+.el-menu-item, .el-submenu__title{
+  color:#bfdae1;
+}
+.el-menu-item.is-active{color:#b2b9c1;}
+.el-submenu .el-menu-item:hover, .el-submenu__title:hover,.el-menu-item.is-active,.el-menu-item:hover{
+  background-color:#22b7b5;
+  color:#fff;
+}
+.el-menu-item-group__title{padding-top:0;}
+/*消息条*/
+.trunDiv{height:36px;line-height:36px;background-color:#32323a;color:#ffdd3e;text-align: left;}
+.areaDiv{padding:20px;}
+/*面包屑*/
+.el-breadcrumb{padding:20px 0 0 20px;}
+/*跑马灯*/
+.bg-purple-dark{background:#32323a;color:yellow;line-height: 40px;text-align:left;}
+
+img{display:block;}
+.el-row {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.el-col {
+  border-radius: 0px;
+}
+.bg-purple-img {
+  background:red;
+  text-align:left;
+  background:url('/../static/img/line.png');
+}
+.bg-purple {
+  background: #32323a;
+}
+.bg-purple-light {
+  background: #e5e9f2;
+}
+.grid-content {
+  border-radius: 0px;
+  min-height: 65px;
+}
+.row-bg {
+  padding: 10px 0;
+  background-color: #f9fafc;
+}
+.bg-purple-fb{color:#fbfbfb}
