@@ -9,8 +9,8 @@
     <el-breadcrumb-item>活动列表</el-breadcrumb-item>
     <el-breadcrumb-item>活动详情</el-breadcrumb-item>
   </el-breadcrumb>
-  <router-view></router-view>
   </div>
+  <router-view></router-view>
 </el-col>
 
 </template>
@@ -27,6 +27,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style socped>
 
 </style>

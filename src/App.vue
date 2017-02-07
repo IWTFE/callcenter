@@ -23,7 +23,6 @@ export default {
     'v-sidebar': sidebar,
     'v-appmain': appmain,
     'v-store': store
-
   },
   methods: {
 
@@ -31,7 +30,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
